@@ -21,7 +21,7 @@ const Skills = () => {
                         <div className="card-sl">
                             <div className="card-image">
                                 <img
-                                    src={html_image} />
+                                    src={html_image} alt="my skills"/>
                             </div>
                             <div className="card-heading text-center">
                                 HTML5
@@ -32,7 +32,7 @@ const Skills = () => {
                         <div className="card-sl">
                             <div className="card-image">
                                 <img
-                                    src={css_image} />
+                                    src={css_image} alt="my skills" />
                             </div>
                             <div className="card-heading text-center">
                             CSS3
@@ -43,7 +43,7 @@ const Skills = () => {
                     <div className="card-sl">
                         <div className="card-image">
                             <img
-                                src={sass_image} />
+                                src={sass_image} alt="my skills"/>
                         </div>
                         <div className="card-heading text-center">
                             Sass
@@ -53,8 +53,8 @@ const Skills = () => {
                 <div className="col-md-3 pb-5">
                     <div className="card-sl">
                         <div className="card-image">
-                            <img
-                                src={js_image} />
+                            <img 
+                                src={js_image} alt="my skills"/>
                         </div>
                         <div className="card-heading text-center">
                         Javascript
@@ -65,7 +65,7 @@ const Skills = () => {
                     <div className="card-sl">
                         <div className="card-image">
                             <img
-                                src={ts_image} />
+                                src={ts_image} alt="my skills"/>
                         </div>
                         <div className="card-heading text-center">
                         TypeScript
@@ -76,7 +76,7 @@ const Skills = () => {
                 <div className="card-sl">
                     <div className="card-image">
                         <img
-                            src={react_image} />
+                            src={react_image} alt="my skills"/>
                     </div>
                     <div className="card-heading text-center">
                         React
@@ -87,7 +87,7 @@ const Skills = () => {
                     <div className="card-sl">
                         <div className="card-image">
                             <img
-                                src={next_image} />
+                                src={next_image} alt="my skills"/>
                         </div>
                         <div className="card-heading text-center">
                         Next JS
@@ -98,7 +98,7 @@ const Skills = () => {
                     <div className="card-sl">
                         <div className="card-image">
                             <img
-                                src={wp_image} />
+                                src={wp_image} alt="my skills"/>
                         </div>
                         <div className="card-heading text-center">
                         WordPress
@@ -109,7 +109,7 @@ const Skills = () => {
                     <div className="card-sl">
                         <div className="card-image">
                             <img
-                                src={git_image} />
+                                src={git_image} alt="my skills" />
                         </div>
                         <div className="card-heading text-center">
                         GIT
@@ -120,7 +120,7 @@ const Skills = () => {
                     <div className="card-sl">
                         <div className="card-image">
                             <img
-                                src={bootstrap_image} />
+                                src={bootstrap_image} alt="my skills"/>
                         </div>
                         <div className="card-heading text-center">
                         Bootstrap

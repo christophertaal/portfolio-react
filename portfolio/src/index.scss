@@ -1,12 +1,15 @@
+$shadow:#aaaaaa;
+$texts:#616161;
+$white:#ffffff;
+$black:#000000;
+
+
 html {
   scroll-behavior: smooth;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-/* h1 { 
-  padding-top: 65px;
-} */
 
 /* navbar */
 
@@ -22,23 +25,23 @@ html {
 
 .resume-btn {
   text-decoration: none;
-  color: white;
+  color: $white;
 }
 
 .resume-btn:hover {
   text-decoration: none;
-  color: white;
+  color: $white;
 }
 
 /* main header */
 #main_header {
   height: 100vh;
-  background-image: linear-gradient(rgba(39, 39, 39, 0.85), rgba(39, 39, 39, 0.85)), url(img/blue.jpg);
+  background-image: linear-gradient(#272727d9, rgba(39, 39, 39, 0.85)), url(img/blue.jpg);
 }
 
 #header_container {
   padding-top: 15%;
-  color: white;
+  color: $white;
 }
 
 #header_container h1 {
@@ -113,39 +116,46 @@ html {
 }
 
 #main_projects h1 {
-  background-color: black;
-  color: white;
+  background-color: $black;
+  box-shadow: 4px 5px 5px $shadow;
+  color: $white;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+#main_projects .card:hover{
+  box-shadow: 4px 5px 5px $shadow;
 }
 
 
 
-
-/* main about */
+/* main about me */
 
 #main_about {
-  color: black !important;
+  color: $black !important;
   padding-top:70px;
+
 
 }
 
 #main_about h1 {
-  background-color: black;
-  color: white;
+  background-color: $black;
+  color: $white;
+  box-shadow: 4px 5px 5px $shadow;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.container.pt-5{
+  margin-top: 5px;
+  font-size: 30px;
+  color: $texts;
+}
 @media only screen and (max-width: 500px) {
   #main_about img {
     width: 200px;
   }
 
 }
-
-
-
 
 /* main contact */
 
@@ -154,8 +164,8 @@ html {
 }
 
 #main_contact h1 {
-  background-color: black;
-  color: white;
+  background-color: $black;
+  color: $white;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -164,26 +174,30 @@ html {
   .btn-send {
     font-size: 10px !important;
   }
-
 }
-
 
 @media only screen and (max-width: 316px) {
   .btn-send {
     font-size: 5px !important;
   }
-
 }
-
-
 
 /* footer */
+#main_contact .text-center{
+  box-shadow: 4px 5px 5px $shadow;
+}
+#main_contact .card{
+  box-shadow: 4px 5px 5px $shadow;
+}
 footer {
   padding-bottom:10px;
-  color: black;
+  color: $black;
 }
-
-
+.form-group{
+  color: #767676;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
 
 /* card images */
 .btn-send {
@@ -201,8 +215,6 @@ footer {
 
 
 /* Card Styles */
-
-
 .card-image img {
   max-height: 100%;
   max-width: 100%;
