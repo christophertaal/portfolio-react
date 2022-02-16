@@ -10,9 +10,7 @@ html {
   margin-right: 5%;
 }
 
-
 /* navbar */
-
 #navbar_list{
   margin: 0;
 }
@@ -48,17 +46,14 @@ html {
   font-size: 80px;
 }
 
-
 #header_container h3 {
   font-size: 50px;
   margin-bottom: 20px;
 }
 
-
 #header_container button{
   font-size: 20px;
 }
-
 
 @media only screen and (max-width: 500px) {
   #main_header h1 {
@@ -74,7 +69,6 @@ html {
   }
 }
 
-
 @media only screen and (max-width: 350px) {
   #main_header h1 {
     padding-top: 70px;
@@ -89,24 +83,28 @@ html {
   }
 }
 
-
-
 /* main skills */
-
 #main_skills {
   padding-top:70px;
 }
-
-#main_skills img {
-  width: 150px;
+#main_skills h1{
+  transition: transform 0.2s;
 }
-
-
+#main_skills h1:hover{
+  transform: scale(1.1);
+}
+#main_skills img {
+  padding: 10px;
+  transition: transform 0.1s; /* Animation */
+  margin: 0 auto;
+}
+#main_skills img:hover{
+  transform: scale(1.1); 
+}
 @media only screen and (max-width: 500px) {
   #main_skills img {
     width: 200px;
   }
-
 }
 
 /* main projects */
@@ -122,19 +120,22 @@ html {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+#main_projects .card{
+  transition: transform 0.7s;
+}
 #main_projects .card:hover{
+  transform: scale(1.1); 
   box-shadow: 4px 5px 5px $shadow;
 }
-
-
-
+@media only screen and (max-width: 1024px) {
+  #main_projects .card:hover{
+    box-shadow: 1px 2px 2px $shadow;
+  }
+}
 /* main about me */
-
 #main_about {
   color: $black !important;
   padding-top:70px;
-
-
 }
 
 #main_about h1 {
@@ -158,7 +159,6 @@ html {
 }
 
 /* main contact */
-
 #main_contact {
   padding-top:70px;
 }

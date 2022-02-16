@@ -35,8 +35,8 @@ const Projects = () => {
                         <div className="card">
                         <img src={texas} className="card-img-top" alt="third project"/>
                         <div className="card-body  text-center">
-                            <h5 className="card-title pt-3">First Collaboration Website</h5>
-                            <p className="card-text pb-5">First Collaboration Website</p>
+                            <h5 className="card-title pt-3">Collaboration Website</h5>
+                            <p className="card-text pb-5">Collaboration Website</p>
                             <a href="www.texas-burger.no" className="btn pb-5"><i className="fab fa-github"></i>Live</a>
                         </div>
                         </div>
@@ -45,7 +45,7 @@ const Projects = () => {
                         <div className="card">
                         <img src={hotel} className="card-img-top" alt="fourth project"/>
                         <div className="card-body  text-center">
-                            <h5 className="card-title pt-3">Hotel Booking Website</h5>
+                            <h5 className="card-title pt-3">HotelBooking Website</h5>
                             <p className="card-text pb-5">Hotel Booking Website</p>
                             <a href="http://project-exam-two.herokuapp.com/?fbclid=IwAR0p7_7Twm1GcM0GKmeADss-ttdwHbhxjrUwyjVhhj13lqLIhLxGB0TL1u4" className="btn pb-3"><i className="fab fa-github"></i> Live</a>
                         </div>
